@@ -27,3 +27,17 @@ This project aims to create a RESTful API for a movie rating application that al
 - **Delete Review**: `DELETE /api/movies/:movieId/reviews/:reviewId` - Deletes a review.
 - **List Reviews**: `GET /api/movies/:id/reviews` - Retrieves all reviews for a movie.
 - **Movie Average Rating**: `GET /api/movies/:id/averageRating` - Returns the average rating.
+
+## Installation
+
+To set up the Movie Rating Application on your local machine, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies by running:
+`npm install` or `yarn`
+4. Once the installation is complete, start the application by running:
+`npm start` or `yarn start`
+
+
+Make sure you have Node.js and MongoDB installed on your system before proceeding with the above steps.
